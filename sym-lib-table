@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DRV8701")(type "KiCad")(uri "${KIPRJMOD}/DRV8701.kicad_sym")(options "")(descr ""))
+  (lib (name "SN74HC125")(type "KiCad")(uri "${KIPRJMOD}/SN74125.kicad_sym")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "${KIPRJMOD}/switch_472121010111/switch.kicad_sym")(options "")(descr ""))
+)
