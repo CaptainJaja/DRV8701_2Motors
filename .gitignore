@@ -1,0 +1,17 @@
+# KiCad – ignorer les fichiers temporaires
+*.bak
+*~*.lck
+*-backups/
+fp-info-cache
+sym-lib-table-bak
+fp-lib-table-bak
+
+# DRC/plot/gerber générés
+GERBER/
+*.zip
+*.drl
+*.gbr
+
+# OS
+.DS_Store
+Thumbs.db
