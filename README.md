@@ -1,4 +1,4 @@
-# Driver DRV8701 – Double pont H 40 V / 25 A (30 A crête)
+# Driver DRV8701 – Double pont H 40 V / 15 A (20 A crête)
 
 > PCB KiCad conçu pour piloter **deux moteurs à courant continu** (brushed) jusqu’à 40 V.  
 > Deux canaux indépendants basés sur le driver TI **DRV8701** et des MOSFETs de puissance **TPH1R403NL**.
@@ -10,8 +10,8 @@
 | Paramètre                     | Valeur                                             |
 | ----------------------------- | -------------------------------------------------- |
 | Tension d’alimentation (VM)   | 7 – 40 V (45 V max absolu)                         |
-| Courant continu par moteur    | 25 A (PCB 2 oz, 2 couches)                         |
-| Courant crête (≤ 100 ms)      | 30 A                                               |
+| Courant continu par moteur    | 15 A (PCB 2 oz, 2 couches)                         |
+| Courant crête (≤ 100 ms)      | 20 A                                               |
 | Topologie                     | 2 × pont H complet (DRV8701 + 4 MOSFETs chacun)    |
 | Commande                      | PH / EN / nSLEEP (3,3 V / 5 V, niveau TTL)         |
 | Limitation de courant         | Shunt 5 mΩ + comparateur interne DRV8701           |
