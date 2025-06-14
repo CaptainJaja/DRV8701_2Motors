@@ -466,12 +466,19 @@
       "TPH1R403NL",
       "DRV8701",
       "SN74HC125PWR",
-      "KF301-5.0-2P"
+      "KF301-5.0-2P",
+      "Oscillator",
+      "MagI3C",
+      "BoutonSMD"
     ],
     "pinned_symbol_libs": [
       "DRV8701",
       "switch",
-      "SN74HC125"
+      "SN74HC125",
+      "CFPX-104-oscillator",
+      "MagI3C",
+      "AM26LS32Ax",
+      "Generic_Switch"
     ]
   },
   "meta": {
@@ -637,6 +644,26 @@
     [
       "13741122-7bf4-473f-b117-422f29fb3018",
       "Root"
+    ],
+    [
+      "27b1e8fe-c9cf-4072-8081-cfc5295d21c1",
+      "MoteurDroit"
+    ],
+    [
+      "21cdb33c-fcae-49b9-be05-48b797bfd63c",
+      "MoteurGauche"
+    ],
+    [
+      "f1aa3c35-e448-45df-a2a6-53fe6f76afb0",
+      "STM_et_Osc"
+    ],
+    [
+      "c8e44ded-48c4-4a1c-911e-f749872def21",
+      "récepteur_ligne_differentielles"
+    ],
+    [
+      "5392043c-9573-4d80-aa55-c269598947da",
+      "récepteur_ligne_differentielles1"
     ]
   ],
   "text_variables": {}

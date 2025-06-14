@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0 -1.27 0)
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15,7 +15,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 40.64 -50.8 0)
+			(at 40.64 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,7 +23,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 -50.8 0)
+			(at 40.64 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32,7 +32,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 -50.8 0)
+			(at 40.64 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,7 +41,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 -50.8 0)
+			(at 40.64 -49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49,33 +49,29 @@
 				(hide yes)
 			)
 		)
-		(symbol "SN74125D_0_1"
-			(rectangle
-				(start -10.16 17.78)
-				(end 10.16 -15.24)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(circle
-				(center -7.62 15.24)
-				(radius 1.27)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
 		(symbol "SN74125D_1_1"
+			(rectangle
+				(start -10.16 15.24)
+				(end 10.16 -13.97)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type color)
+					(color 255 255 194 1)
+				)
+			)
+			(text "SN74125D\n"
+				(at 0 13.97 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(pin input line
-				(at -12.7 10.16 0)
+				(at -12.7 11.43 0)
 				(length 2.54)
 				(name "1OEbar"
 					(effects
@@ -93,7 +89,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 6.35 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "1A"
 					(effects
@@ -111,7 +107,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 2.54 0)
+				(at -12.7 3.81 0)
 				(length 2.54)
 				(name "1Y"
 					(effects
@@ -129,7 +125,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -1.27 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "2OEbar"
 					(effects
@@ -147,7 +143,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -5.08 0)
+				(at -12.7 -3.81 0)
 				(length 2.54)
 				(name "2A"
 					(effects
@@ -165,7 +161,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -8.89 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
 				(name "2Y"
 					(effects
@@ -183,7 +179,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 -12.7 0)
+				(at -12.7 -11.43 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -201,7 +197,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 10.16 180)
+				(at 12.7 11.43 180)
 				(length 2.54)
 				(name "Vcc"
 					(effects
@@ -219,7 +215,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 6.35 180)
+				(at 12.7 7.62 180)
 				(length 2.54)
 				(name "4OEbar"
 					(effects
@@ -237,7 +233,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at 12.7 3.81 180)
 				(length 2.54)
 				(name "4A"
 					(effects
@@ -255,7 +251,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -1.27 180)
+				(at 12.7 0 180)
 				(length 2.54)
 				(name "4Y"
 					(effects
@@ -273,7 +269,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -5.08 180)
+				(at 12.7 -3.81 180)
 				(length 2.54)
 				(name "3OEbar"
 					(effects
@@ -291,7 +287,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -8.89 180)
+				(at 12.7 -7.62 180)
 				(length 2.54)
 				(name "3A"
 					(effects
@@ -309,7 +305,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 -12.7 180)
+				(at 12.7 -11.43 180)
 				(length 2.54)
 				(name "3Y"
 					(effects

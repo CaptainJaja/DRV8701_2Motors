@@ -5,4 +5,5 @@
   (lib (name "TB67H450FNG")(type "KiCad")(uri "${KIPRJMOD}/TB67H450FNG.pretty")(options "")(descr ""))
   (lib (name "TPH1R403NL")(type "KiCad")(uri "${KIPRJMOD}/TPH1R403NL.pretty")(options "")(descr ""))
   (lib (name "KF301-5.0-2P")(type "KiCad")(uri "${KIPRJMOD}/KF301-5.0-2P.pretty")(options "")(descr ""))
+  (lib (name "Oscillator")(type "KiCad")(uri "${KIPRJMOD}/Oscillator.pretty")(options "")(descr ""))
 )
