@@ -1454,7 +1454,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0a425ee1-4f65-4a64-8218-9f0cbb27e494")
-		(property "Reference" "U11"
+		(property "Reference" "U16"
 			(at 140.97 62.23 0)
 			(effects
 				(font
@@ -1548,11 +1548,11 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/5392043c-9573-4d80-aa55-c269598947da"
-					(reference "U12")
+					(reference "U17")
 					(unit 1)
 				)
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/c8e44ded-48c4-4a1c-911e-f749872def21"
-					(reference "U11")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -1586,7 +1586,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 168.6052 69.85 0)
 			(effects
 				(font
@@ -1642,7 +1642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0460def-ff17-4ca1-ba77-ca8ae1ad52a4")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR059"
 			(at 167.64 80.01 0)
 			(effects
 				(font
@@ -1694,11 +1694,11 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/5392043c-9573-4d80-aa55-c269598947da"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/c8e44ded-48c4-4a1c-911e-f749872def21"
-					(reference "#PWR052")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -1714,7 +1714,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f46d51-7f9a-4584-90c1-4ae30aae7ced")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR057"
 			(at 115.57 72.39 0)
 			(effects
 				(font
@@ -1766,11 +1766,11 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/5392043c-9573-4d80-aa55-c269598947da"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/c8e44ded-48c4-4a1c-911e-f749872def21"
-					(reference "#PWR050")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -1786,7 +1786,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8200cdc-3a65-4dbe-9ac1-e6cd9b443cc1")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR056"
 			(at 121.92 72.39 0)
 			(effects
 				(font
@@ -1836,11 +1836,11 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/5392043c-9573-4d80-aa55-c269598947da"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/c8e44ded-48c4-4a1c-911e-f749872def21"
-					(reference "#PWR049")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -1856,7 +1856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdca4d4f-0c15-497a-863b-50bb697c65ea")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 165.1 62.23 0)
 			(effects
 				(font
@@ -1906,11 +1906,11 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/5392043c-9573-4d80-aa55-c269598947da"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/c8e44ded-48c4-4a1c-911e-f749872def21"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
