@@ -14,10 +14,8 @@
 | Courant crête (≤ 100 ms)      | 20 A                                               |
 | Topologie                     | 2 × pont H complet (DRV8701 + 4 MOSFETs chacun)    |
 | Commande                      | PH / EN / nSLEEP (3,3 V / 5 V, niveau TTL)         |
-| Limitation de courant         | Shunt 5 mΩ + comparateur interne DRV8701           |
-| Protections                   | OCP, OTP, UVLO, shoot-through, nFAULT              |
 | Indications LED               |  **EN** (nSLEEP = HIGH)                            |
-| Indications Neopixel          |  Etat batterie ( >25V/ >23V && <25V /  <23V        |
+| Indications Neopixel          |  Etat batterie ( >25V / >23V && <25V / <23V)       |
 | Dimensions PCB                | 92 mm × 61 mm                                      |
 
 ---
