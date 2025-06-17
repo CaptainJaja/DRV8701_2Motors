@@ -1,6 +1,6 @@
 # Driver DRV8701 – Double pont H 40 V / 15 A (20 A crête)
 
-> PCB KiCad conçu pour piloter **deux moteurs à courant continu** (brushed) jusqu’à 40 V.  
+> PCB KiCad conçu pour piloter **deux moteurs à courant continu** (brushed) jusqu’à 40 V, 15A.  
 > Deux canaux indépendants basés sur le driver TI **DRV8701** et des MOSFETs de puissance **TPH1R403NL**.
 
 ---
@@ -16,8 +16,9 @@
 | Commande                      | PH / EN / nSLEEP (3,3 V / 5 V, niveau TTL)         |
 | Limitation de courant         | Shunt 5 mΩ + comparateur interne DRV8701           |
 | Protections                   | OCP, OTP, UVLO, shoot-through, nFAULT              |
-| Indications LED               | **PWR** (alimentation) • **EN** (nSLEEP = HIGH)    |
-| Dimensions PCB                | 54 mm × 55 mm                                      |
+| Indications LED               |  **EN** (nSLEEP = HIGH)                            |
+| Indications Neopixel          |  Etat batterie ( >25V/ >23V && <25V /  <23V        |
+| Dimensions PCB                | 92 mm × 61 mm                                      |
 
 ---
 
@@ -25,12 +26,11 @@
 
 ### Alimentation logique 3,3 V  
 Le DRV8701 requiert **DVDD = 2,7 – 5,5 V**.  
-Une **diode Zener 3 V3 + résistance** fournit localement ≈ 3 V (suffisant pour nSLEEP).
 
 ### Dissipation  
 * Exposed-pad du DRV8701 raccordé au plan GND via vias thermiques.  
 * MOSFETs TPH1R403NL (SOP-Advance) soudés sur large cuivre + plan interne.  
-* Condos bulk : 470 µF / 50 V faible ESR + céramiques 100 nF proches des MOSFETs.
+* Condos bulk : 470 µF / 50 V faible ESR 
 
 ---
 
