@@ -3128,12 +3128,6 @@
 		(uuid "196890a5-20b5-4a1f-840c-03d11971b002")
 	)
 	(junction
-		(at 210.82 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1fd37a23-11a9-43b1-80c1-3fb89303d6d4")
-	)
-	(junction
 		(at 210.82 153.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3182,16 +3176,16 @@
 		(uuid "b78abf59-ad92-49a5-aade-247021c0ebff")
 	)
 	(junction
-		(at 265.43 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ba34d79c-ea3f-412d-94fd-9177e130d5a2")
-	)
-	(junction
 		(at 205.74 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0a9deef-fbe1-4458-ac6e-e3ce12f475e3")
+	)
+	(junction
+		(at 265.43 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cab01a84-fc9c-4014-bc13-dda131e92cdb")
 	)
 	(junction
 		(at 57.15 66.04)
@@ -3509,6 +3503,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 46.99) (xy 265.43 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "416e3c5b-7c25-4ca0-9910-ed212d7a8e5a")
+	)
+	(wire
+		(pts
 			(xy 153.67 104.14) (xy 144.78 104.14)
 		)
 		(stroke
@@ -3726,16 +3730,6 @@
 			(type default)
 		)
 		(uuid "683a643f-ca4b-4f2c-8f65-94a34764ebd6")
-	)
-	(wire
-		(pts
-			(xy 265.43 46.99) (xy 265.43 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "688da07c-87e3-4a00-a390-ba6426ab1532")
 	)
 	(wire
 		(pts
@@ -5428,72 +5422,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 210.82 140.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b71a642-c039-4166-b671-a9d0a15ae92e")
-		(property "Reference" "TP3"
-			(at 215.9 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 212.09 143.256 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 210.82 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 210.82 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 210.82 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "890ac108-a050-4df6-b784-83205d615eb0")
-		)
-		(instances
-			(project "DRV8701_2Motors"
-				(path "/13741122-7bf4-473f-b117-422f29fb3018"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MagI3C:MagI3C_3v3_StepDown")
 		(at 43.18 128.27 0)
 		(unit 1)
@@ -5601,7 +5529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 			(at 254 101.6 0)
 			(effects
 				(font
@@ -6660,7 +6588,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical_SMD"
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD"
 			(at 274.32 138.43 0)
 			(effects
 				(font
