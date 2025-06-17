@@ -132,7 +132,7 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.15,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
@@ -469,7 +469,8 @@
       "KF301-5.0-2P",
       "Oscillator",
       "MagI3C",
-      "BoutonSMD"
+      "BoutonSMD",
+      "Logos_Ensea"
     ],
     "pinned_symbol_libs": [
       "DRV8701",
@@ -489,7 +490,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -500,8 +501,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
+        "track_width": 0.15,
+        "via_diameter": 0.45,
         "via_drill": 0.3,
         "wire_width": 6
       }
@@ -656,14 +657,6 @@
     [
       "f1aa3c35-e448-45df-a2a6-53fe6f76afb0",
       "STM_et_Osc"
-    ],
-    [
-      "c8e44ded-48c4-4a1c-911e-f749872def21",
-      "récepteur_ligne_differentielles"
-    ],
-    [
-      "5392043c-9573-4d80-aa55-c269598947da",
-      "récepteur_ligne_differentielles1"
     ]
   ],
   "text_variables": {}
