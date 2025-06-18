@@ -10,7 +10,7 @@
 | Paramètre                     | Valeur                                             |
 | ----------------------------- | -------------------------------------------------- |
 | Tension d’alimentation (VM)   | 7 – 40 V (45 V max absolu)                         |
-| Courant continu par moteur    | 15 A (PCB 2 oz, 2 couches)                         |
+| Courant continu par moteur    | 15 A (PCB 1 oz, 4 couches)                         |
 | Courant crête (≤ 100 ms)      | 20 A                                               |
 | Topologie                     | 2 × pont H complet (DRV8701 + 4 MOSFETs chacun)    |
 | Commande                      | PH / EN / nSLEEP (3,3 V / 5 V, niveau TTL)         |
