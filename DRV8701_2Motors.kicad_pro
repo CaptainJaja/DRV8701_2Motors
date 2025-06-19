@@ -470,7 +470,8 @@
       "Oscillator",
       "MagI3C",
       "BoutonSMD",
-      "Logos_Ensea"
+      "Logos_Ensea",
+      "Quartz"
     ],
     "pinned_symbol_libs": [
       "DRV8701",

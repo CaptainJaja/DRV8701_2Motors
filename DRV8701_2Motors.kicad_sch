@@ -12586,9 +12586,9 @@
 				(justify left)
 			)
 		)
-		(pin "PA7" input
+		(pin "PB14" input
 			(at 106.68 102.87 180)
-			(uuid "feb04279-04f7-4181-b536-e2d22e07f67f")
+			(uuid "af5a44ae-5a67-46ab-8e5a-54d972b4f589")
 			(effects
 				(font
 					(size 1.27 1.27)
