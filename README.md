@@ -16,7 +16,7 @@
 | Commande                      | PH / EN / nSLEEP (3,3 V / 5 V, niveau TTL)         |
 | Indications LED               |  **EN** (nSLEEP = HIGH)                            |
 | Indications Neopixel          |  Etat batterie ( >25V / >23V && <25V / <23V)       |
-| Dimensions PCB                | 92 mm × 61 mm                                      |
+| Dimensions PCB                | 100 mm × 40 mm                                      |
 
 ---
 
