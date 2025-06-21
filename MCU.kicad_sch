@@ -3861,6 +3861,10 @@
 		(uuid "17f9dc9d-3d2f-4a23-9a71-b80dd90913ed")
 	)
 	(no_connect
+		(at 133.35 49.53)
+		(uuid "19d92e54-a279-4a9d-a329-689f54b16726")
+	)
+	(no_connect
 		(at 189.23 118.11)
 		(uuid "243d298a-d0e4-4396-bc8c-b251a8ce67dc")
 	)
@@ -3879,10 +3883,6 @@
 	(no_connect
 		(at 189.23 120.65)
 		(uuid "46498174-3a6f-441e-a349-070eb1e20eab")
-	)
-	(no_connect
-		(at 125.73 49.53)
-		(uuid "6a77ba60-84d2-4ad4-98cf-e9a3d023ab8b")
 	)
 	(no_connect
 		(at 189.23 87.63)
@@ -4005,16 +4005,6 @@
 			(type default)
 		)
 		(uuid "07b196a3-69b5-4f9b-832a-b5c807e5e360")
-	)
-	(wire
-		(pts
-			(xy 135.89 52.07) (xy 133.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6bc23c-31b1-4ac1-9c7c-ee1bc5827640")
 	)
 	(wire
 		(pts
@@ -4238,16 +4228,6 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 49.53) (xy 133.35 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "601a701e-1c96-414b-a3fd-0beccff5be16")
-	)
-	(wire
-		(pts
 			(xy 222.25 90.17) (xy 222.25 82.55)
 		)
 		(stroke
@@ -4325,6 +4305,16 @@
 			(type default)
 		)
 		(uuid "7e74ee2f-792b-49df-ba9e-67c1ed62fedf")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 125.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "833cbc7e-35c4-45bf-86c6-bb590d65160e")
 	)
 	(wire
 		(pts
@@ -4625,6 +4615,16 @@
 			(type default)
 		)
 		(uuid "c45b8141-4250-4001-ba34-b2b81ea8cc6b")
+	)
+	(wire
+		(pts
+			(xy 125.73 52.07) (xy 135.89 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8a1daf4-2fa7-4f41-8ae3-33262753081b")
 	)
 	(wire
 		(pts
@@ -6090,7 +6090,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2855462e-1606-4233-b4db-7b5791334288")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR059"
 			(at 82.55 111.76 0)
 			(effects
 				(font
@@ -6141,7 +6141,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR057")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -6157,7 +6157,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2874e23c-105c-46e7-824d-13175eed1a3c")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR068"
 			(at 261.62 60.96 0)
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR066")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -6430,7 +6430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ee16186-ac60-4e69-ba98-96ef77f7d046")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR055"
 			(at 49.53 111.76 0)
 			(effects
 				(font
@@ -6481,7 +6481,7 @@
 		(instances
 			(project ""
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -6497,7 +6497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fcd7e02-21e8-4d60-92eb-e9cfd474e005")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR061"
 			(at 113.03 43.18 0)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR059")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -6580,7 +6580,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BoutonSMD:wurth_pushButton_SMD"
+		(property "Footprint" "switch:WS-TASU SMT Tact Switch 4.7x3.5 mm side push"
 			(at 129.54 46.99 0)
 			(effects
 				(font
@@ -6923,7 +6923,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f736c2b-b460-4463-9240-cf41310c9ba1")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR058"
 			(at 78.74 166.37 0)
 			(effects
 				(font
@@ -6974,7 +6974,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR056")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -7056,7 +7056,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7f0343c8-518e-4436-9f35-fd8c942d723f")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR054"
 			(at 43.18 133.35 0)
 			(effects
 				(font
@@ -7107,7 +7107,7 @@
 		(instances
 			(project ""
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR052")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -7755,7 +7755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aed404ac-4ea4-43ca-b1c4-160ccb676ae2")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR056"
 			(at 52.07 82.55 0)
 			(effects
 				(font
@@ -7806,7 +7806,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR054")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -7821,7 +7821,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1697b7c-36e2-45b1-8b84-11d6641a3dfe")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR064"
 			(at 179.07 33.02 0)
 			(effects
 				(font
@@ -7871,7 +7871,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR062")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -7954,7 +7954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b39ab022-7267-4677-8a11-4b4653b92160")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR066"
 			(at 204.47 33.02 0)
 			(effects
 				(font
@@ -8004,7 +8004,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -8020,7 +8020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcb1389f-5871-4a02-a5f8-71694776f6d9")
-		(property "Reference" "C33"
+		(property "Reference" "C32"
 			(at 226.06 92.7099 0)
 			(effects
 				(font
@@ -8074,7 +8074,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "C33")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -8159,7 +8159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce99bb2c-c7bb-4aa4-bb8c-1a880f98b4c0")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR065"
 			(at 189.23 43.18 0)
 			(effects
 				(font
@@ -8210,7 +8210,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR063")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -8226,7 +8226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d0f69c8a-ba2e-4d7e-b691-cbdd3d4186d7")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR067"
 			(at 237.49 106.68 0)
 			(effects
 				(font
@@ -8277,7 +8277,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR065")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daa6a238-f340-480c-baa3-70ffd81ccb8a")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 172.72 140.97 0)
 			(effects
 				(font
@@ -8343,7 +8343,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8427,7 +8427,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e69172c5-f482-49c4-aceb-70c35694872d")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR057"
 			(at 53.34 44.45 0)
 			(effects
 				(font
@@ -8477,7 +8477,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR055")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8493,7 +8493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e977cdbe-8089-44a8-b189-96b39cf6f26e")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR060"
 			(at 113.03 33.02 0)
 			(effects
 				(font
@@ -8543,7 +8543,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR058")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -8559,7 +8559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e68df4-7a99-4ba7-bf58-1a1be2133e87")
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 267.97 71.1199 0)
 			(effects
 				(font
@@ -8613,7 +8613,7 @@
 		(instances
 			(project ""
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -8629,7 +8629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f95be0d7-499e-4dc7-911b-cdfc8c69a80c")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR062"
 			(at 135.89 59.69 0)
 			(effects
 				(font
@@ -8680,7 +8680,7 @@
 		(instances
 			(project "DRV8701_2Motors"
 				(path "/13741122-7bf4-473f-b117-422f29fb3018/f1aa3c35-e448-45df-a2a6-53fe6f76afb0"
-					(reference "#PWR060")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
