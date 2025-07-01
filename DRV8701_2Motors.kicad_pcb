@@ -91,6 +91,7 @@
 			(dielectric_constraints no)
 		)
 		(pad_to_mask_clearance 0)
+		(pad_to_paste_clearance_ratio -0.15)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
 		(pcbplotparams
@@ -24289,7 +24290,7 @@
 		)
 	)
 	(gr_text "A R E S "
-		(at 166.95 79.12 0)
+		(at 167.1 80.3 0)
 		(layer "F.SilkS")
 		(uuid "51d7c887-78d8-4c33-a0ff-ab71a034de1f")
 		(effects
@@ -24340,7 +24341,7 @@
 		)
 	)
 	(gr_text "By C.Janus"
-		(at 168.12 80.73 0)
+		(at 168.25 82.25 0)
 		(layer "F.SilkS")
 		(uuid "a5e23a1f-09f4-4dd0-9e3d-0297386ea194")
 		(effects
@@ -24424,6 +24425,19 @@
 		(effects
 			(font
 				(size 0.8 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Made in\n"
+		(at 167.85 78.55 0)
+		(layer "F.SilkS")
+		(uuid "e9ba8a56-896c-4798-b448-b35ba6ec1fa6")
+		(effects
+			(font
+				(size 0.8 0.8)
 				(thickness 0.1)
 				(bold yes)
 			)
