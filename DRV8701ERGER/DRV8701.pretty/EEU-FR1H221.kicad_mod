@@ -1,0 +1,127 @@
+(footprint "EEU-FR1H221"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.55 -6.335 0)
+		(layer "F.SilkS")
+		(uuid "57084a3d-da02-4ab1-924e-656d8ac6ddb0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EEU-FR1H221"
+		(at 11.345 6.315 0)
+		(layer "F.Fab")
+		(uuid "be6119c7-34f3-4013-a877-a6d598e59f4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e025fd0-22ff-466f-a9b0-dfb05b3c914a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e64f94e6-8dae-4ec4-8287-8f077db4a69f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -5.75 0)
+		(end -5.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "450ee4dd-3b32-4913-a957-e5892130f32a")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "163a6ede-aee0-46cc-87c0-547d31a60a26")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fed54300-65f3-4634-8191-13e32d311021")
+	)
+	(fp_circle
+		(center -5.75 0)
+		(end -5.65 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "acbb0337-621a-407a-9c9d-383513b32d8d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "98ffd249-efab-4169-9d19-3a3841d67b43")
+	)
+	(pad "N" thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "74e38d90-f69c-486d-b341-6df257f7ca1c")
+	)
+	(pad "P" thru_hole rect
+		(at -2.5 0)
+		(size 1.2 1.2)
+		(drill 0.85)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "3b500838-b12c-49d5-ae6e-9ea4ffe0b22d")
+	)
+	(embedded_fonts no)
+)

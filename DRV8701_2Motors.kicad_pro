@@ -472,7 +472,8 @@
       "MagI3C",
       "BoutonSMD",
       "Logos_Ensea",
-      "Quartz"
+      "Quartz",
+      "BU33SD5WG-TR"
     ],
     "pinned_symbol_libs": [
       "DRV8701",
