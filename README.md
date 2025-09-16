@@ -35,7 +35,7 @@ Le DRV8701 requiert **DVDD = 2,7 – 5,5 V**.
 ## Vues du PCB
 
 ### Face composants
-![PCB Face](imageFront.png)
+![PCB Face](ImageFront.png)
 
 ### Face cuivre arrière
-![PCB Dos](imageBack.png)
+![PCB Dos](ImageBack.png)
