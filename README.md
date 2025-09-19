@@ -1,34 +1,38 @@
 # Driver DRV8701 – Double pont H 40 V / 10 A (15 A crête)
 
-> PCB KiCad conçu pour piloter **deux moteurs à courant continu** (brushed) jusqu’à 40 V, 10A.  
-> Deux canaux indépendants basés sur le driver TI **DRV8701** et des MOSFETs de puissance **TPH1R403NL**.
+> PCB conçu sous **KiCad** pour le pilotage de **deux moteurs à courant continu** (brushed) jusqu’à 40 V / 10 A.  
+> Chaque canal est basé sur un driver TI **DRV8701** associé à quatre MOSFETs de puissance **TPH1R403NL**.  
+> Le PCB intègre la **mesure d’encodeur** pour un contrôle en PID et un **asservissement en courant** géré par le DRV8701.  
+> La limitation est réglée à **3 A** : au-delà, le driver applique une **régulation par hachage PWM (“current chopping”)** afin de maintenir le courant sous la valeur de consigne.
+
 
 ---
 
 ## Caractéristiques principales
 
-| Paramètre                     | Valeur                                             |
-| ----------------------------- | -------------------------------------------------- |
-| Tension d’alimentation (VM)   | 7 – 40 V                         |
-| Courant continu par moteur    | 10 A (PCB 1 oz, 4 couches)                         |
-| Courant crête (≤ 100 ms)      | 15 A                                               |
-| Topologie                     | 2 × pont H complet (DRV8701 + 4 MOSFETs chacun)    |
-| Commande                      | PH / EN / nSLEEP (3,3 V / 5 V, niveau TTL)         |
-| Indications LED               |  **EN** (nSLEEP = HIGH)                            |
-| Indications Neopixel          |  Etat batterie ( >25V / >23V && <25V / <23V)       |
-| Dimensions PCB                | 100 mm × 40 mm                                      |
+| Paramètre                  | Valeur                                               |
+| -------------------------- | ---------------------------------------------------- |
+| Tension d’alimentation VM  | 7 – 40 V                                             |
+| Courant continu par moteur | 10 A (PCB 4 couches, cuivre 1 oz)                    |
+| Courant crête              | 15 A (≤ 100 ms)                                      |
+| Limite de courant haché    | 3 A (via DRV8701)                                    |
+| Topologie                  | 2 × pont H complet (DRV8701 + 4 MOSFETs chacun)      |
+| Commande                   | PH / EN / nSLEEP (TTL 3,3 V / 5 V)                   |
+| Indications LED            | **EN** (actif quand nSLEEP = HIGH)                   |
+| Indications NeoPixel       | État batterie (>25 V / entre 23–25 V / <23 V)        |
+| Dimensions PCB             | 100 mm × 40 mm                                       |
 
 ---
 
 ## Implémentation matérielle
 
-### Alimentation logique 3,3 V  
-Le DRV8701 requiert **DVDD = 2,7 – 5,5 V**.  
+### Alimentation logique (3,3 V)  
+Le DRV8701 requiert une tension **DVDD comprise entre 2,7 et 5,5 V**.  
 
-### Dissipation  
-* Exposed-pad du DRV8701 raccordé au plan GND via vias thermiques.  
-* MOSFETs TPH1R403NL (SOP-Advance) soudés sur large cuivre + plan interne.  
-* Condos bulk : 470 µF / 50 V faible ESR 
+### Dissipation thermique  
+- **Exposed pad** du DRV8701 relié au plan GND via des vias thermiques.  
+- MOSFETs **TPH1R403NL (SOP-Advance)** soudés sur un large plan de cuivre et reliés à un plan interne pour dissipation.  
+- Condensateurs de découplage bulk : **470 µF / 50 V** faible ESR.  
 
 ---
 
