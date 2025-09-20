@@ -23,15 +23,11 @@
 | Dimensions PCB             | 100 mm × 40 mm                                       |
 
 ---
-
-## Implémentation matérielle
-
-### Alimentation logique (3,3 V)  
-Le DRV8701 requiert une tension **DVDD comprise entre 2,7 et 5,5 V**.  
+ 
 
 ### Dissipation thermique  
 - **Exposed pad** du DRV8701 relié au plan GND via des vias thermiques.  
-- MOSFETs **TPH1R403NL (SOP-Advance)** soudés sur un large plan de cuivre et reliés à un plan interne pour dissipation.  
+- MOSFETs **TPH1R403NL (SOP-Advance)** soudés sur un large plan de cuivre et reliés à un plan interne pour conduire plus de courant.  
 - Condensateurs de découplage bulk : **470 µF / 50 V** faible ESR.  
 
 ---
