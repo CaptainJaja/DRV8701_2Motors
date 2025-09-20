@@ -39,7 +39,7 @@ Le DRV8701 requiert une tension **DVDD comprise entre 2,7 et 5,5 V**.
 ## Vues du PCB
 
 ### Face composants
-![PCB Face](ImageFront.png)
+![PCB Face](Imagefront.png)
 
 ### Face cuivre arrière
-![PCB Dos](ImageBack.png)
+![PCB Dos](Imageback.png)
