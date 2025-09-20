@@ -24,10 +24,6 @@
 
 ---
 
-## Implémentation matérielle
-
-### Alimentation logique (3,3 V)  
-Le DRV8701 requiert une tension **DVDD comprise entre 2,7 et 5,5 V**.  
 
 ### Dissipation thermique  
 - **Exposed pad** du DRV8701 relié au plan GND via des vias thermiques.  
