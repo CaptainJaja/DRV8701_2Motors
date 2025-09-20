@@ -5,7 +5,6 @@
 > Le PCB intègre la **mesure d’encodeur** pour un contrôle en PID et un **asservissement en courant** géré par le DRV8701.  
 > La limitation est réglée à **3 A** : au-delà, le driver applique une **régulation par hachage PWM (“current chopping”)** afin de maintenir le courant sous la valeur de consigne.
 
-
 ---
 
 ## Caractéristiques principales
