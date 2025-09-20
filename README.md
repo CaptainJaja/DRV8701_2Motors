@@ -23,7 +23,6 @@
 | Dimensions PCB             | 100 mm × 40 mm                                       |
 
 ---
- 
 
 ### Dissipation thermique  
 - **Exposed pad** du DRV8701 relié au plan GND via des vias thermiques.  
