@@ -3089,7 +3089,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "DRV8701"
 			(at 103.7433 64.77 0)
 			(effects
 				(font

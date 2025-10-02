@@ -3694,12 +3694,8 @@
 		(uuid "952ae041-406a-4ff1-8a35-34ea2291bc48")
 	)
 	(no_connect
-		(at 189.23 102.87)
-		(uuid "9d348a15-dde9-4e25-8c85-e0ef883f005a")
-	)
-	(no_connect
 		(at 189.23 105.41)
-		(uuid "9e86b599-c538-429e-a434-b4b42155f758")
+		(uuid "9e4ca1f0-db6d-4bed-9cf8-4efb5eb1100b")
 	)
 	(no_connect
 		(at 189.23 82.55)
@@ -3708,14 +3704,6 @@
 	(no_connect
 		(at 189.23 54.61)
 		(uuid "adfacf38-7a9d-4c12-aae6-ea84590d0c1c")
-	)
-	(no_connect
-		(at 189.23 113.03)
-		(uuid "b55df5cd-cf40-4d8d-93aa-a2fe1cf78d16")
-	)
-	(no_connect
-		(at 189.23 92.71)
-		(uuid "bbf2f7dd-96cb-4491-a5d1-aa25abe841ee")
 	)
 	(no_connect
 		(at 189.23 62.23)
@@ -3732,6 +3720,10 @@
 	(no_connect
 		(at 153.67 80.01)
 		(uuid "d9e86db0-f0f7-42f4-9bae-a27c26ad8cb6")
+	)
+	(no_connect
+		(at 189.23 102.87)
+		(uuid "e87a8757-8f75-4945-82fd-848136727b04")
 	)
 	(no_connect
 		(at 189.23 59.69)
@@ -4535,7 +4527,7 @@
 		(uuid "1133fedc-2e17-4d82-9011-1ca44c28d539")
 	)
 	(label "USART2_RX"
-		(at 77.47 71.12 180)
+		(at 77.47 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4760,7 +4752,7 @@
 		(uuid "ec0bd02d-de0c-4add-b345-1908c305bce5")
 	)
 	(label "USART2_TX"
-		(at 77.47 68.58 180)
+		(at 77.47 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4844,6 +4836,17 @@
 			(justify right)
 		)
 		(uuid "513728f5-27e2-4d4d-a1d1-f4d694f1e77c")
+	)
+	(hierarchical_label "GPIO_PB2"
+		(shape input)
+		(at 189.23 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "639933c9-ef37-4048-8a03-7e72b32d6eb8")
 	)
 	(hierarchical_label "R_PWM"
 		(shape input)
@@ -4932,6 +4935,17 @@
 			(justify left)
 		)
 		(uuid "be6bb52a-09e0-4693-b873-e82583aa0ea0")
+	)
+	(hierarchical_label "GPIO_PB10"
+		(shape input)
+		(at 189.23 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c37ff935-a348-44fb-be71-f304fe5361ba")
 	)
 	(hierarchical_label "R_nFAULT"
 		(shape input)
