@@ -6413,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Oscillator:WE-XTAL Quartz Crystal 8MHz"
+		(property "Footprint" "Crystal:Crystal_SMD_7050-4Pin_7.0x5.0mm"
 			(at 245.11 82.55 0)
 			(effects
 				(font
