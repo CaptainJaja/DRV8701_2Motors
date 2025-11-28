@@ -54,17 +54,6 @@ Merci encore à Liam et à l’équipe PCBWay pour leur aide !
 
 ![PCB Dos](ImageBack.png)
 
----
-
-## Remerciements
-
-Merci à **PCBWay** pour leur support sur ce projet.
-Ci-dessous l’un des échanges :
-
-> *“I just wanted to let you know that I’ve received the PCBs — everything arrived in perfect condition!
-> I’ve already started soldering the components, and everything looks great so far.
-> I’ll add the PCBWay mention to the GitHub repository very soon.
-> Thanks again for your support — the boards look fantastic!”* — *Janus*
 
 ---
 
