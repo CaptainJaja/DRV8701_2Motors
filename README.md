@@ -13,8 +13,7 @@
 Ce projet a été **sponsorisé par PCBWay**, qui a généreusement fourni les PCB pour le prototypage.
 La qualité du PCB est excellente et le support très réactif.
 
-👉 **Lien vers PCBWay :** [https://www.pcbway.com](https://www.pcbway.com)
-[![PCBWay](https://img.shields.io/badge/PCBWay-Sponsor-orange.svg?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxMjAgMzAiPjx0ZXh0IHg9IjAiIHk9IjIwIiBmb250LXNpemU9IjMwIiBmaWxsPSIjMDBhNjAwIj5QQ0JXYXk8L3RleHQ+PC9zdmc+)](https://www.pcbway.com/)
+👉 **Lien vers PCBWay :** [![PCBWay](https://img.shields.io/badge/PCBWay-Sponsor-orange.svg?style=flat&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAxMjAgMzAiPjx0ZXh0IHg9IjAiIHk9IjIwIiBmb250LXNpemU9IjMwIiBmaWxsPSIjMDBhNjAwIj5QQ0JXYXk8L3RleHQ+PC9zdmc+)](https://www.pcbway.com/)
 
 
 Merci encore à Liam et à l’équipe PCBWay pour leur aide !
